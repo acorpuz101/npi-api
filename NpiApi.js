@@ -2,7 +2,7 @@ const https = require('https');
 const fetch = require("node-fetch");
 const auth = require("./auth.json");
 
-module.exports = class LexiCalaApi {
+module.exports = class NpiApi {
   constructor() {
 		this.method = "GET";
 		this.version = "2.0";
